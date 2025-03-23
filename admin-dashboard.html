@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <h1>Admin Dashboard</h1>
+
+    <form id="eventForm">
+        <div class="form-row">
+            <input type="text" id="title" placeholder="Event Title" required>
+            <input type="text" id="description" placeholder="Description" required>
+            <input type="datetime-local" id="date" required>
+            <button type="submit">Create</button>
+        </div>
+    </form>
+
+    <h2>Events</h2>
+    <div id="eventsContainer"></div>
+
+    <script src="script2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Selection</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url("https://images3.alphacoders.com/830/thumb-1920-83067.jpg") no-repeat; 
+            background-size: cover;
+            background-position: center;
+        }
+
+        .wrapper {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgba(67, 41, 41, 0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 25px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .role-selection {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .role-selection button {
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            border: none;
+            background: linear-gradient(45deg, #d33fc7, #4a9ee2);
+            color: white;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .role-selection button:hover {
+            background: linear-gradient(45deg, #4a9ee2, #d33fc7);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Select Your Role</h2>
+        <div class="role-selection">
+            <button onclick="location.href='user_auth.html'">User</button>
+            <button onclick="location.href='admin_auth.html'">Admin</button>
+        </div>
+    </div>
+</body>
+</html>

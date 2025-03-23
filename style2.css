@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://images3.alphacoders.com/830/thumb-1920-83067.jpg") no-repeat;              
+    color: #D1D1D1;                    
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #8A2BE2;                     
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 100%;
+    margin: 0 auto 20px;
+    background: #1a1a1a;               
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #4B0082;       
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #8A2BE2;          
+    background: #222;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 15px #BF40BF;       
+}
+
+button {
+    background: #8A2BE2;               
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 15px #BF40BF;
+    border: none;
+}
+
+button:hover {
+    background: #BF40BF;              
+    box-shadow: 0 0 30px #BF40BF;
+}
+
+#eventsContainer {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.event-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #4B0082;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.event-card:hover {
+    box-shadow: 0 0 25px #BF40BF;
+}
+
+.event-card button {
+    background: #4B0082;               
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 10px;
+}
+
+.event-card button:hover {
+    background: #8A2BE2;              
+    box-shadow: 0 0 15px #BF40BF;
+}
+
+.event-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.event-info p {
+    margin: 0;
+    font-size: 14px;
+}
